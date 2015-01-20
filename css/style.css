@@ -1,0 +1,397 @@
+@font-face {
+    font-family: "Neris-Black";
+    src: url("../font/Neris-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Neris-BlackItalic";
+    src: url("../font/Neris-BlackItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Neris-BoldItalic";
+    src: url("../font/Neris-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Neris-Light";
+    src: url("../font/Neris-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Neris-LightItalic";
+    src: url("../font/Neris-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Neris-manual";
+    src: url("../font/Neris-manual.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Neris-SemiBold";
+    src: url("../font/Neris-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Neris-SemiBoldItalic";
+    src: url("../font/Neris-SemiBoldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Neris-Thin";
+    src: url("../font/Neris-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Neris-ThinItalic";
+    src: url("../font/Neris-ThinItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../font/Roboto-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-BlackItalic";
+    src: url("../font/Roboto-BlackItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../font/Roboto-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-BoldCondensed";
+    src: url("../font/Roboto-BoldCondensed.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-BoldCondensedItalic";
+    src: url("../font/Roboto-BoldCondensedItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-BoldItalic";
+    src: url("../font/Roboto-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-Condensed";
+    src: url("../font/Roboto-Condensed.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-CondensedItalic";
+    src: url("../font/Roboto-CondensedItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url("../font/Roboto-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../font/Roboto-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-LightItalic";
+    src: url("../font/Roboto-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-Mediuml";
+    src: url("../font/Roboto-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-MediumItalic";
+    src: url("../font/Roboto-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../font/Roboto-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("../font/Roboto-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto-ThinItalic";
+    src: url("../font/Roboto-ThinItalic.otf") format("opentype");
+}
+
+body {
+	margin: 0;
+    font-family: Arial;
+    color: #FFF;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#bigBox {
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#box-1 {
+	width: inherit;
+	height: 621px;
+}
+
+#box-2 {
+	width: inherit;
+	height: 80px;
+	background: #1B7022;
+}
+
+#menu {
+	height: 90px;
+	width: inherit;
+}
+
+#imgHome {
+	width: inherit;
+	height: 531px;
+	background: url("../img/banner-home.jpg");
+}
+
+#menuBox {
+	width: 950px;
+	height: inherit;
+	margin: 0 auto;
+}
+
+#logo {
+	position: absolute;
+	width: 135px;
+	height: 146px;
+	background: url("../img/logo-jd.jpg");
+}
+
+#videoBox {
+	height: 255px;
+	width: inherit;
+	background: url("../img/videos.jpg");
+}
+
+#feed-box {
+	width: 300px;
+	height: inherit;
+	float: left;
+}
+
+#banner-box {
+	width: 679px;
+	height: inherit;
+	float: left;
+}
+
+#feed-box-head {
+	width: inherit;
+	height: 71px;
+	color: #FFF;
+	font-family: "Gill Sans";
+}
+
+#menuInteriorBox {
+    position: relative;
+    left: 185px;
+    width: 806px;
+    height: 15px;
+    padding-top: 43px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+#separaPunto {
+    padding-right: 9px;
+    float: left;
+}
+
+#textoMenu {
+    padding-right: 9px;
+    float: left;
+}
+
+#tituloVerde {
+    padding-top: 6px;
+    font-family: "Neris-LightItalic";
+    font-size: 52px;
+}
+
+#tituloVerde span{
+    font-family: "Neris-SemiBoldItalic";
+}
+
+#sliderBox {
+    height: 541px;
+    width: inherit;
+}
+
+#sliderTextBox {
+    color: #626262;
+    margin: 15px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+#newsBox {
+    width: 231px;
+    min-height: 150px;
+    margin-left: 32px;
+    margin-top: 21px;
+}
+
+#newsTitulo span {
+    font-family: "Neris-Black";
+}
+
+#newsTitulo {
+    font-family: "Neris-Light";
+    color: #0073B8;
+    font-size: 16pt;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+#newsTexto {
+    margin-top: 11px;
+    font-size: 9pt;
+    color: #999;
+    line-height: 17px;
+}
+
+#newsDate {
+    margin-top: 11px;
+    font-size: 10pt;
+    color: #000;
+    font-family: "Neris-SemiBoldItalic";
+}
+
+#footBox {
+    width: 152px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+#footBoxInterior {
+    width: inherit;
+    height: 40px;
+}
+
+#logoFooter {
+    width: 68px;
+    height: 40px;
+    background: url("../img/logo-jd-trans.jpg");
+    float: left;
+}
+
+#textoFooter {
+    margin-left: 25px;
+    height: inherit;
+    width: 250px;
+    font-size: 11px;
+    float: left;
+    line-height: 14px;   
+}
+
+#tweetFooter {
+    width: 239px;
+    height: inherit;
+    margin-left: 35px;
+    float: left;
+}
+
+#tweetTitulo {
+    color: #50DA9B;
+    font-size: 15px;
+}
+
+#tweetTweet {
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+#tweetOrigen {
+    color: #50DA9B;
+    font-size: 10px;
+}
+
+#tweetConcursoFooter {
+    width: 239px;
+    height: inherit;
+    margin-left: 35px;
+    float: left;
+}
+
+#tweetConcursoTitulo {
+    color: #50DA9B;
+    font-size: 15px;
+    float: left;
+}
+
+#concursoGanador {
+    color: #60BEBB;
+    font-size: 11px;
+    margin-top: 20px;
+}
+
+#redes {
+    float: left;
+}
+
+#redes img {
+    margin-right: 5px;
+}
+
+.bg-azul {
+    background: url("../img/menu-azul-bg.jpg");
+}
+
+.bg-verde {
+    background: url("../img/menu-verde-bg.jpg");
+}
+
+.celeste {
+	background: #118DD7;
+}
+
+.celeste-claro {
+	background: #1FA0EE;
+}
+
+.celeste center {
+	padding-top: 24px;
+	font-size: 21px;
+}
+
+.celeste-claro center {
+	padding-top: 12px;
+	font-size: 34px;
+	font-family: "Neris-SemiBoldItalic";
+}
+
+.redesFooter {
+    margin-top: -8px;
+    margin-left: 14px;
+    margin-bottom: 10px;
+}
+
+.redesMenu {
+    margin-top: -11px;
+}
+
+.galleria{ width: 679px; height: 393px; background: #000 }
