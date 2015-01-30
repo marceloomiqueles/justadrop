@@ -153,21 +153,75 @@ a {
 #box-2 {
 	width: inherit;
 	height: 80px;
-	background: #1B7022;
+	background: url("../img/footer_bg.jpg");
 }
 
 #menu {
-	height: 90px;
+	height: 72px;
 	width: inherit;
 }
 
 #imgHome {
-	width: inherit;
-	height: 531px;
-	background: url("../img/banner-home.jpg");
+    width: inherit;
+    height: 549px;
+    background: url("../img/banner-home.jpg");
+}
+
+#imgHomeF {
+    width: inherit;
+    height: 549px;
+    background: url("../img/bg_full.jpg");
+}
+
+#contiene {
+    position: relative;
+    width: 554px;
+    height: inherit;
+    float: left;
+}
+
+#videos {
+    position: relative;
+    width: 250px;
+    height: inherit;
+    float: left;
+}
+
+#videosBoxT {
+    position: absolute;
+    width: 250px;
+    height: inherit;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    background: #FFF;
+}
+
+#videosBox {
+    position: absolute;
+    width: 230px;
+    height: inherit;
+    overflow: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#vacioBox {
+    position: relative;
+    width: inherit;
+    height: 78px;
+}
+
+#cajaVideo {
+    position: relative;
+    width: inherit;
+    height: 150px;
+    margin-bottom: 15px;
 }
 
 #menuBox {
+    position: relative;
 	width: 950px;
 	height: inherit;
 	margin: 0 auto;
@@ -178,6 +232,7 @@ a {
 	width: 135px;
 	height: 146px;
 	background: url("../img/logo-jd.jpg");
+    z-index: 1;
 }
 
 #videoBox {
@@ -210,7 +265,7 @@ a {
     left: 185px;
     width: 806px;
     height: 15px;
-    padding-top: 43px;
+    padding-top: 32px;
     color: #FFF;
     font-size: 12px;
 }
@@ -289,23 +344,20 @@ a {
 
 #footBoxInterior {
     width: inherit;
-    height: 40px;
+    min-height: 46px;
 }
 
 #logoFooter {
-    width: 68px;
-    height: 40px;
+    width: 66px;
+    height: 46px;
     background: url("../img/logo-jd-trans.jpg");
-    float: left;
+    margin: 0 auto;
 }
 
 #textoFooter {
-    margin-left: 25px;
-    height: inherit;
-    width: 250px;
-    font-size: 11px;
-    float: left;
-    line-height: 14px;   
+    font-size: 9px;
+    padding-top: 3px;
+    width: 155px; 
 }
 
 #tweetFooter {
@@ -318,6 +370,36 @@ a {
 #tweetTitulo {
     color: #50DA9B;
     font-size: 15px;
+}
+
+#contiene_water {
+    width: 182px;
+    height: 431px;
+    margin: 0 auto;
+}
+
+#water {
+    position: relative;
+    top: 100px;
+    width: inherit;
+    height: inherit;
+}
+
+#water2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: inherit;
+    height: inherit;
+}
+
+.imgWater1 {
+    background: url("../img/water.png");
+}
+
+.imgWater2 {
+    background: url("../img/water_hablante.png");
+    visibility: hidden;
 }
 
 #tweetTweet {
@@ -353,8 +435,477 @@ a {
     float: left;
 }
 
+#msjWater {
+    position: absolute;
+}
+
+.mensaje-1 {
+    top: 0px;
+    left: 130px;
+    width: 174px;
+    height: 203px;
+    background: url("../img/m_1.png");
+    /*visibility: hidden;*/
+}
+
+.mensaje-2 {
+    top: 36px;
+    left: 128px;
+    width: 147px;
+    height: 160px;
+    background: url("../img/m_2.png");
+    visibility: hidden;
+}
+
+.mensaje-3 {
+    top: 33px;
+    left: -105px;
+    width: 150px;
+    height: 164px;
+    background: url("../img/m_3.png");
+    /*visibility: hidden;*/
+}
+
 #redes img {
     margin-right: 5px;
+}
+
+#socialBox {
+    position: relative;
+    height: inherit;
+    width: 219px;
+    float: left;
+}
+
+#contSocialBox {
+    position: absolute;
+    margin-top: 78px;
+    height: 423px;
+    width: 205px;
+}
+
+#contSocialBoxT {
+    position: absolute;
+    margin-top: 78px;
+    height: 423px;
+    width: 205px;
+    background: #FFF;
+    border-radius: 10px;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#socialTitulo {
+    position: relative;
+    width: inherit;
+    height: 50px;
+    background: #118DD7;
+    border-radius: 10px;
+}
+
+#socialCont {
+    position: relative;
+    height: 351px;
+    width: 175px;
+    margin-top: 11px;
+    margin-left: 15px;
+}
+
+#socialContBoton {
+    width: inherit;
+    height: 30px;
+}
+
+#socialContFeed {
+    width: inherit;
+    margin-top: 18px;
+    height: 303px;
+    overflow: auto;
+}
+
+#socialFeedComentario {
+    position: relative;
+    margin-bottom: 15px;
+    width: inherit;
+    height: 32px;
+}
+
+#imagen {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+#comentarioFeed {
+    position: relative;
+    width: 132px;
+    height: 32px;
+    margin-left: 10px;
+    font-size: 10px;
+    float: left;
+    color: #626262;
+}
+
+#socialTitulo div {
+    text-align: center;
+    padding-top: 19px;
+    font-size: 12px;
+}
+
+#socialContBoton button {
+    width: 75px;
+    height: 30px;
+    border-radius: 14px;
+    background: #FFF;
+    border: 1px solid #D4D5D7;
+    margin-left: 7px;
+    color: #383839;
+}
+
+#cuadro {
+    cursor: pointer;
+}
+
+#contenedorBox {
+    height: inherit;
+    width: 605px;
+    margin: 0 auto;
+}
+
+#contenedorBoxInt {
+    position: relative;
+    height: inherit;
+    width: inherit;
+}
+
+#layerBoxT {
+    position: absolute;
+    top: 39px;
+    width: inherit;
+    height: 472px;
+    background: #FFF;
+    opacity: 0.8;
+}
+
+#layerBox {
+    position: absolute;
+    top: 39px;
+    width: inherit;
+    height: 472px;
+    overflow: hidden;
+}
+
+#layerBoxHeadT {
+    position: relative;
+    width: inherit;
+    height: 63px;
+    background: #1087CA;
+}
+
+#layerBoxHeadTO {
+    position: absolute;
+    top: 39px;
+    width: inherit;
+    height: 63px;
+    background: #1087CA;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+#layerBoxHead {
+    position: relative;
+    width: inherit;
+    height: 63px;
+    float: left;
+}
+
+#layerBoxHeadO {
+    position: absolute;
+    top: 39px;
+    width: inherit;
+    height: 63px;
+    float: left;
+    z-index: 1;
+}
+
+#layerBoxHeadTitulo {
+    text-align: center;
+    font-size: 43px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+#layerCont {
+    position: relative;
+    margin-top: 14px;
+    margin-left: 26px;
+    width: 579px;
+    height: 391px;
+    float: left;
+}
+
+#layerContNoticias {
+    width: 402px;
+    height: 391px;
+    margin: 63px auto;
+}
+
+.layerContTextoInt {
+    margin: 15px;
+    text-align: justify;
+}
+
+.layerContTextoIntComprar {
+    margin: 15px;
+    text-align: left;
+}
+
+.layerContTextoIntComprar a {
+    color: #0073B8;
+    font-family: "Neris-Black";
+    font-size: 14px;
+}
+
+.layerContTextoIntComprar b {
+    font-family: "Neris-Black";
+    text-transform: uppercase;
+}
+
+#layerContImagen {
+    position: relative;
+    width: 245px;
+    height: 395px;
+    float: left;
+    text-align: center;
+}
+
+#layerContComprarImagen {
+    position: relative;
+    width: 160px;
+    height: 395px;
+    float: left;
+    text-align: center;
+}
+
+#noticiaPapelTexto {
+    width: 265px;
+    height: 375px;
+    margin: 15px 60px;
+    overflow: auto;
+}
+
+#noticiaPapelTextoCont {
+    height: 130px;
+    width: inherit;
+    margin-bottom: 30px;
+}
+
+#noticiaPapelTextoContTitulo {
+    width: 210px;
+    min-height: 60px;
+    height: auto;
+    font-size: 19px;
+    color: #0073B8;
+    font-family: "Neris-SemiBold";
+}
+
+#noticiaPapelTextoContTexto {
+    width: 250px;
+    height: auto;
+    font-size: 11px;
+    color: #999;
+}
+
+#noticiaPapelTextoContTitulo span {
+    font-family: "Neris-Black";
+}
+
+#noticiaPapelTextoContFecha {
+    width: 250px;
+    height: auto;
+    font-size: 11px;
+    color: #333;
+    font-family: "Neris-SemiBoldItalic";
+}
+
+.industrialText {
+    font-size: 16px;
+    padding-left: 15px;
+    min-width: 130px;
+    max-width: 319px;
+    background: #3FACEF;
+    color: #FFF;
+}
+
+#layerContIndustrial {
+    position: relative;
+    margin-top: 14px;
+    width: 605px;
+    height: 395px;
+    float: left;
+    color: #0073B8;
+    font-size: 14px;
+    font-family: "Neris-Light";
+}
+
+#layerContIndustrialInt {
+    width: 445px;
+    height: inherit;
+}
+
+#layerContForm {
+    position: relative;
+    margin-top: 14px;
+    width: 605px;
+    height: 391px;
+    float: left;
+}
+
+#layerContTexto {
+    position: relative;
+    width: 334px;
+    height: 395px;
+    color: #0073B8;
+    font-size: 14px;
+    font-family: "Neris-Light";
+    float: left;
+    overflow: auto;
+}
+
+#layerContTextoComprar {
+    position: relative;
+    width: 445px;
+    height: 395px;
+    color: #0073B8;
+    font-size: 14px;
+    font-family: "Neris-Light";
+    float: left;
+    overflow: auto;
+}
+
+#layerContTexto ul {
+    margin-top: 4px;
+    list-style-image: url('../img/gota.png');
+    font-size: 16px;
+}
+
+#funcionaWater {
+    position: absolute;
+    left: 0px;
+    width: 292px;
+    height: 522px;
+}
+
+#fondoPapel {
+    position: absolute;
+    width: 402px;
+    height: inherit;
+    background: url('../img/papel_noticias.png');
+}
+
+.normal {
+    background: url('../img/water_funciona.png');
+}
+
+.habla {
+    background: url('../img/water_funciona_hablando.png');
+    visibility: hidden;
+}
+
+#funcionaPaso {
+    position: absolute;
+    top: 60px;
+    left: 230px;
+    width: 353px;
+    height: 306px;
+}
+
+#cajaContacto {
+    width: 438px;
+    height: 345px;
+    background: #3CAAED;
+    margin: 22px auto;
+    padding-top: 12px;
+    text-align: center;
+    font-family: "Neris-Light";
+    font-size: 14px;
+}
+
+#cajaContacto input {
+    width: 150px;
+    height: 17px;
+    border: 0px;
+    border-radius: 6px;
+    padding-left: 6px;
+}
+
+#cajaContacto p span {
+    position: relative;
+    left: 1px;
+}
+
+#cajaContacto p span img{
+    position: relative;
+    top: 3px;
+}
+
+#cajaContactoInt {
+    width: 395px;
+    height: 250px;
+    margin-left: 20px;
+    padding-bottom: 22px;
+}
+
+#cajaContactoInput {
+    width: 219px;
+    margin-bottom: 17px;
+    float: left;
+}
+
+#cajaContactoTextArea {
+    margin-bottom: 17px;
+    width: 100%;
+    float: left;
+}
+
+#cajaContactoTextArea textarea {
+    width: 245px;
+    height: 83px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+.paso-1 {
+    background: url('../img/paso_1.png');
+}
+
+.paso-2 {
+    background: url('../img/paso_2.png');
+    visibility: hidden;
+}
+
+.paso-3 {
+    background: url('../img/paso_3.png');
+    visibility: hidden;
+}
+
+.cuadro-1 {
+    position: absolute;
+    top: 10px;
+    left: 29px;
+    background: url('../img/cuadro_1.png');
+    width: 172px;
+    height: 158px;
+}
+
+.cuadro-2 {
+    position: absolute;
+    top: 10px;
+    left: 355px;
+    background: url('../img/cuadro_2.png');
+    width: 174px;
+    height: 157px;
 }
 
 .bg-azul {
@@ -384,6 +935,19 @@ a {
 	font-family: "Neris-SemiBoldItalic";
 }
 
+.blackType {
+    font-family: "Neris-BlackItalic";
+}
+
+.liderPic {
+    position: relative;
+    top: -18px;
+}
+
+.unimarcTop {
+    margin-top: 9px;
+}
+
 .redesFooter {
     margin-top: -8px;
     margin-left: 14px;
@@ -394,4 +958,11 @@ a {
     margin-top: -11px;
 }
 
-.galleria{ width: 679px; height: 393px; background: #000 }
+.fbButton {
+    cursor: pointer;
+}
+
+.twButton {
+    visibility: hidden;
+    cursor: pointer;
+}
