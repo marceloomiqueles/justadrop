@@ -7,7 +7,7 @@
 		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 		<script src='js/script.js'></script>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="shortcut icon" href="http://www.justadrop.cl/wp-content/uploads/2013/08/Logo.png" type="image/x-icon">
+
 	</head>
 	<body>
 		<div id='bigBox'>
@@ -71,24 +71,7 @@
 					</div>
 				</div>
 				<div id='imgHome'>
-					<div id='videos' class='videoC'>
-						<div id='videosCaja'>
-							<div id='videosBoxT'>
-							</div>
-							<div id='videosBox' class='videosBox1'>
-								<div id='vacioBox'><br/><span class='vacioBox-1'>Cerrar<span></div>
-								<div id='cajaVideo'>
-									<iframe width="230" src="https://www.youtube.com/embed/ZMkSosLr1zA" frameborder="0" allowfullscreen></iframe>
-								</div>
-							</div>
-							<div id='videosBox' class='videosBox2'>
-								<div id='vacioBox'><br/><span class='vacioBox-2'>Cerrar<span></div>
-								<div id='cajaVideo'>
-									<iframe width="230" src="https://www.youtube.com/embed/ZMkSosLr1zA" frameborder="0" allowfullscreen></iframe>
-								</div>
-							</div>
-						</div>
-					</div>
+					<div id='videos' class='videoC'></div>
 					<div id='contiene'>
 						<div id='cuadro' class='cuadro-1'></div>
 						<div id='cuadro' class='cuadro-2'></div>

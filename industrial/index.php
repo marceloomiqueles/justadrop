@@ -7,17 +7,22 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 		<script type="text/javascript" src='../js/script.js'></script>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="shortcut icon" href="http://www.justadrop.cl/wp-content/uploads/2013/08/Logo.png" type="image/x-icon">
 	</head>
 	<body>
 		<div id='bigBox'>
 			<div id='box-1'>
 				<div id='menu' class='bg-azul'>
 					<div id='menuBox'>
-						<a href="#">
+						<a href='../'>
 							<div id='logo'></div>
 						</a>
 						<div id='menuInteriorBox'>
-							<div id='separaPunto'>·</div>
+							<div id='separaPunto'>
+								<a href="../">
+									<img src="../img/casita.png">
+								</a>
+							</div>
 							<div id='textoMenu'>
 								<a href="../funciona/">
 									CÓMO FUNCIONA
@@ -94,9 +99,24 @@
 											</ul>
 											<p class='layerContTextoInt'>Just a Drop es un aditivo seguro para el medio ambiente de uso industrial. Just a Drop está compuesto de extractos de plantas y está diseñado para bloquear, neutralizar los malos olores y evitar que se escapen al aire. Just a Drop Industrial es seguro para aplicaciones industriales y compatible con otros compuestos.</p>
 											<p class='layerContTextoInt'>Con una aplicación de Just a Drop se neutraliza de manera instantánea la emanación de malos olores desde la fuente de emanación, con una disminución de entre un 80-100% de la intensidad de olor, perdurando su efecto por 72 horas y soportando lluvias y agitación de los líquidos, por lo que se puede aplicar en piscinas y pozos homogeneizadores.</p>
+											<p class='industrialText'>FICHAS</p>
+											<p class='layerContTextoInt' align='center'>
+												<a href='../img/pdf/Ficha-Tecnica-Asprocer.pdf' target='_blank'>
+													<img src='../img/tecnica.png' width='71px' >
+												</a>
+												<a href='../img/pdf/Just-a-Drop-Industrial-Hojadeseguridad.pdf' target='_blank'>
+													<img src='../img/seguridad.png' width='71px' >
+												</a>
+												<a href='../img/pdf/REACH-SVHC-Report-JAD-Industrial.pdf' target='_blank'>
+													<img src='../img/reach.png' width='71px' >
+												</a>
+												<a href='../img/pdf/Resultados-finales-evaluacion-JAD-Ecometrika.pdf' target='_blank'>
+													<img src='../img/laboratorio.png' width='71px' >
+												</a>
+											</p>
 										</div>
 										<div id='layerContImagen'>
-											<img src="../img/industrial_botellas.png" height='359px'>
+											<img src='../img/industrial_botellas.png' height='359px'>
 										</div>
 									</div>
 								</div>

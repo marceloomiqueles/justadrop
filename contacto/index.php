@@ -13,11 +13,15 @@
 			<div id='box-1'>
 				<div id='menu' class='bg-azul'>
 					<div id='menuBox'>
-						<a href="#">
+						<a href="../">
 							<div id='logo'></div>
 						</a>
 						<div id='menuInteriorBox'>
-							<div id='separaPunto'>·</div>
+							<div id='separaPunto'>
+								<a href="../">
+									<img src="../img/casita.png">
+								</a>
+							</div>
 							<div id='textoMenu'>
 								<a href="../funciona/">
 									CÓMO FUNCIONA
@@ -77,7 +81,7 @@
 								</div>
 								<div id='layerContForm'>
 									<div id='cajaContacto'>
-										<form action='asdasd.jjh' method='POST'>
+										<form action='#' method='POST'>
 										<div id='cajaContactoInput'>Nombre y Apellido:<br><input type='text' name='nombre' placeholder='Nombre y Apellido'></div>
 										<div id='cajaContactoInput'>E mail:<br><input type='text' name='correo' placeholder='E mail'></div>
 										<div id='cajaContactoInput'>Télefono:<br><input type='text' name='telefono' placeholder='Télefono'></div>

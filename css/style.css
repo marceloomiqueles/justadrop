@@ -198,6 +198,12 @@ a {
     background: #FFF;
 }
 
+#videosCaja {
+    width: 250px;
+    height: inherit;
+    display: none;
+}
+
 #videosBox {
     position: absolute;
     width: 230px;
@@ -211,6 +217,13 @@ a {
     position: relative;
     width: inherit;
     height: 78px;
+    text-align: right;
+    color: #0073B8;
+}
+
+#vacioBox span {
+    cursor: pointer;
+    margin-top: 5px;
 }
 
 #cajaVideo {
@@ -262,7 +275,7 @@ a {
 
 #menuInteriorBox {
     position: relative;
-    left: 185px;
+    left: 164px;
     width: 806px;
     height: 15px;
     padding-top: 32px;
@@ -374,14 +387,13 @@ a {
 
 #contiene_water {
     width: 182px;
-    height: 431px;
-    margin: 0 auto;
+    height: 434px;
+    margin: 100px auto 0 auto;
 }
 
 #water {
     position: relative;
-    top: 100px;
-    width: inherit;
+    width: 182px;
     height: inherit;
 }
 
@@ -389,16 +401,23 @@ a {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: inherit;
-    height: inherit;
+    width: 182px;
+    height: 431px;
+}
+
+#water2:hover {
+    background: url("../img/water_hablante.png");
 }
 
 .imgWater1 {
     background: url("../img/water.png");
 }
 
-.imgWater2 {
-    background: url("../img/water_hablante.png");
+.videosBox1 {
+    visibility: hidden;
+}
+
+.videosBox2 {
     visibility: hidden;
 }
 
@@ -439,13 +458,22 @@ a {
     position: absolute;
 }
 
+#papel {
+    position: absolute;
+    top: 213px;
+    left: 63px;
+    width: 70px;
+    height: 138px;
+    background: url("../img/papel_higienico.png");
+}
+
 .mensaje-1 {
     top: 0px;
     left: 130px;
     width: 174px;
     height: 203px;
     background: url("../img/m_1.png");
-    /*visibility: hidden;*/
+    visibility: hidden;
 }
 
 .mensaje-2 {
@@ -463,7 +491,7 @@ a {
     width: 150px;
     height: 164px;
     background: url("../img/m_3.png");
-    /*visibility: hidden;*/
+    visibility: hidden;
 }
 
 #redes img {
@@ -696,9 +724,10 @@ a {
 }
 
 #noticiaPapelTextoCont {
-    height: 130px;
+    min-height: 130px;
     width: inherit;
     margin-bottom: 30px;
+    line-height: 16px;
 }
 
 #noticiaPapelTextoContTitulo {
@@ -715,6 +744,7 @@ a {
     height: auto;
     font-size: 11px;
     color: #999;
+    margin-bottom: 5px;
 }
 
 #noticiaPapelTextoContTitulo span {
@@ -810,7 +840,6 @@ a {
 
 .habla {
     background: url('../img/water_funciona_hablando.png');
-    visibility: hidden;
 }
 
 #funcionaPaso {
@@ -824,7 +853,7 @@ a {
 #cajaContacto {
     width: 438px;
     height: 345px;
-    background: #3CAAED;
+    background: #1087CA;
     margin: 22px auto;
     padding-top: 12px;
     text-align: center;
@@ -882,12 +911,13 @@ a {
 
 .paso-2 {
     background: url('../img/paso_2.png');
-    visibility: hidden;
+    display: none;
 }
 
 .paso-3 {
     background: url('../img/paso_3.png');
-    visibility: hidden;
+    cursor: pointer;
+    display: none;
 }
 
 .cuadro-1 {
@@ -941,7 +971,7 @@ a {
 
 .liderPic {
     position: relative;
-    top: -18px;
+    top: -8px;
 }
 
 .unimarcTop {

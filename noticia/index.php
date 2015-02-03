@@ -13,11 +13,15 @@
 			<div id='box-1'>
 				<div id='menu' class='bg-azul'>
 					<div id='menuBox'>
-						<a href="#">
+						<a href="../">
 							<div id='logo'></div>
 						</a>
 						<div id='menuInteriorBox'>
-							<div id='separaPunto'>·</div>
+							<div id='separaPunto'>
+								<a href="../">
+									<img src="../img/casita.png">
+								</a>
+							</div>
 							<div id='textoMenu'>
 								<a href="../funciona/">
 									CÓMO FUNCIONA
@@ -79,60 +83,31 @@
 									<div id='fondoPapel'>
 										<div id='noticiaPapelTexto'>
 											<!--Inicio Noticia-->
-											<div id='noticiaPapelTextoCont'>
-												<div id='noticiaPapelTextoContTitulo'><span>Just a Drop</span> Previene olores desagradables.</div>
-												<div id='noticiaPapelTextoContTexto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis.</div>
-												<div id='noticiaPapelTextoContFecha'>15 Diciembre 2014</div>
-											</div>
+											<a href='http://www.lun.com/Pages/NewsDetail.aspx?PaginaId=36&bodyid=0&dt=2013-dic-02' target='_blank'>
+												<div id='noticiaPapelTextoCont'>
+													<div id='noticiaPapelTextoContTitulo'>Gotitas mágicas resuelven el problema del mal olor en el baño</div>
+													<div id='noticiaPapelTextoContTexto'>Tratar el tema, qué duda cabe, es incómodo, pero más incómodas son las consecuencias de eludirlo y no encontrarle solución. Para salir de la plancha rápido, mejor explicarlo de una: cómo resolver el eterno problema del mal olor que sale del baño luego que se ejecuta el trámite estomacal correspondiente... más</div>
+													<div id='noticiaPapelTextoContFecha'>02 Diciembre 2013</div>
+												</div>
+											</a>
 											<!--Fin Noticia-->
 											<!--Inicio Noticia-->
-											<div id='noticiaPapelTextoCont'>
-												<div id='noticiaPapelTextoContTitulo'><span>Just a Drop</span> Previene olores desagradables.</div>
-												<div id='noticiaPapelTextoContTexto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis.</div>
-												<div id='noticiaPapelTextoContFecha'>15 Diciembre 2014</div>
-											</div>
+											<a href='http://economia.terra.cl/sepa-como-quitan-el-mal-olor-de-su-inodoro-los-famosos,415e1d660d304410VgnVCM3000009af154d0RCRD.html' target='_blank'>
+												<div id='noticiaPapelTextoCont'>
+													<div id='noticiaPapelTextoContTitulo'>Sepa cómo quitan el mal olor de su inodoro los famosos</div>
+													<div id='noticiaPapelTextoContTexto'>No distingue edad, clase, raza, religión, ni género. Cruza todos los estratos socio económicos. Está en todos los hogares del país y se ha transformado en un tema obligado de conversación. Just a Drop es el secreto mejor guardado de famosos, modelos y personalidades del mundo de las comunicaciones. Tanto así, que programas de televisión, radio y prensa han analizado el fenómeno de esta exitosa innovación... más</div>
+													<div id='noticiaPapelTextoContFecha'>09 Febrero 2014</div>
+												</div>
+											</a>
 											<!--Fin Noticia-->
 											<!--Inicio Noticia-->
-											<div id='noticiaPapelTextoCont'>
-												<div id='noticiaPapelTextoContTitulo'><span>Just a Drop</span> Previene olores desagradables.</div>
-												<div id='noticiaPapelTextoContTexto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis.</div>
-												<div id='noticiaPapelTextoContFecha'>15 Diciembre 2014</div>
-											</div>
-											<!--Fin Noticia-->
-											<!--Inicio Noticia-->
-											<div id='noticiaPapelTextoCont'>
-												<div id='noticiaPapelTextoContTitulo'><span>Just a Drop</span> Previene olores desagradables.</div>
-												<div id='noticiaPapelTextoContTexto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis.</div>
-												<div id='noticiaPapelTextoContFecha'>15 Diciembre 2014</div>
-											</div>
-											<!--Fin Noticia-->
-											<!--Inicio Noticia-->
-											<div id='noticiaPapelTextoCont'>
-												<div id='noticiaPapelTextoContTitulo'><span>Just a Drop</span> Previene olores desagradables.</div>
-												<div id='noticiaPapelTextoContTexto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis.</div>
-												<div id='noticiaPapelTextoContFecha'>15 Diciembre 2014</div>
-											</div>
-											<!--Fin Noticia-->
-											<!--Inicio Noticia-->
-											<div id='noticiaPapelTextoCont'>
-												<div id='noticiaPapelTextoContTitulo'><span>Just a Drop</span> Previene olores desagradables.</div>
-												<div id='noticiaPapelTextoContTexto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis.</div>
-												<div id='noticiaPapelTextoContFecha'>15 Diciembre 2014</div>
-											</div>
-											<!--Fin Noticia-->
-											<!--Inicio Noticia-->
-											<div id='noticiaPapelTextoCont'>
-												<div id='noticiaPapelTextoContTitulo'><span>Just a Drop</span> Previene olores desagradables.</div>
-												<div id='noticiaPapelTextoContTexto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis.</div>
-												<div id='noticiaPapelTextoContFecha'>15 Diciembre 2014</div>
-											</div>
-											<!--Fin Noticia-->
-											<!--Inicio Noticia-->
-											<div id='noticiaPapelTextoCont'>
-												<div id='noticiaPapelTextoContTitulo'><span>Just a Drop</span> Previene olores desagradables.</div>
-												<div id='noticiaPapelTextoContTexto'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis.</div>
-												<div id='noticiaPapelTextoContFecha'>15 Diciembre 2014</div>
-											</div>
+											<a href='http://www.diariopyme.cl/unas-simples-gotas-prometen-acabar-con-el-mal-olor-despues-de-ir-al-bano/prontus_diariopyme/2014-01-03/150055.html' target='_blank'>
+												<div id='noticiaPapelTextoCont'>
+													<div id='noticiaPapelTextoContTitulo'>Simples gotas prometen acabar con el mal olor después de ir al baño</div>
+													<div id='noticiaPapelTextoContTexto'>Es cierto: después de que utilizamos el baño, el olor que queda no es precisamente a rosas. Cuando no estás en tu casa ir a realizar tus necesidades puede ser muy incómodo, precisamente por este problema, aunque ya parecer haber una solución... más</div>
+													<div id='noticiaPapelTextoContFecha'>03 Enero 2014</div>
+												</div>
+											</a>
 											<!--Fin Noticia-->
 										</div>
 									</div>

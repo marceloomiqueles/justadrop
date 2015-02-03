@@ -13,11 +13,15 @@
 			<div id='box-1'>
 				<div id='menu' class='bg-azul'>
 					<div id='menuBox'>
-						<a href="#">
+						<a href="../">
 							<div id='logo'></div>
 						</a>
 						<div id='menuInteriorBox'>
-							<div id='separaPunto'>·</div>
+							<div id='separaPunto'>
+								<a href="../">
+									<img src="../img/casita.png">
+								</a>
+							</div>
 							<div id='textoMenu'>
 								<a href="../funciona/">
 									CÓMO FUNCIONA

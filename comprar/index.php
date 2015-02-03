@@ -13,11 +13,15 @@
 			<div id='box-1'>
 				<div id='menu' class='bg-azul'>
 					<div id='menuBox'>
-						<a href="#">
+						<a href="../">
 							<div id='logo'></div>
 						</a>
 						<div id='menuInteriorBox'>
-							<div id='separaPunto'>·</div>
+							<div id='separaPunto'>
+								<a href="../">
+									<img src="../img/casita.png">
+								</a>
+							</div>
 							<div id='textoMenu'>
 								<a href="../funciona/">
 									CÓMO FUNCIONA
@@ -81,12 +85,11 @@
 											<p class='layerContTextoIntComprar blackType'>
 												Just a Drop de uso personal disponible en todos los
 												<br/>
-												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 												<img src="../img/logo_lider.png" class='liderPic' height='27px'>
-												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-												<img src="../img/logo_unimarc.png" class='unimarcTop' height='62px'>
-												&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-												<img src="../img/logo_telemercado.png" height='60px'>
+												<img src="../img/logo_unimarc.png" class='unimarcTop' height='45px'>
+												<img src="../img/logo_telemercado.png" height='45px'>
+												<img src="../img/ok-market.png" height='45px'>
+												<img src="../img/tottus.png" class='liderPic' width='135px'>
 											</p>
 											<!--Fin Seccion-->
 											<!--Inicio Seccion-->
