@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 	</head>
 	<body>
+		<?php include_once("../analyticstracking.php") ?>
 		<div id='bigBox'>
 			<div id='box-1'>
 				<div id='menu' class='bg-azul'>

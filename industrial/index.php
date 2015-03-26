@@ -10,6 +10,7 @@
 		<link rel="shortcut icon" href="http://www.justadrop.cl/wp-content/uploads/2013/08/Logo.png" type="image/x-icon">
 	</head>
 	<body>
+		<?php include_once("../analyticstracking.php") ?>
 		<div id='bigBox'>
 			<div id='box-1'>
 				<div id='menu' class='bg-azul'>
